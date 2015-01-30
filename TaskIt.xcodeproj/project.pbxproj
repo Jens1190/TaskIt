@@ -13,6 +13,11 @@
 		F7DD92321A49A32000A378D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DD92311A49A32000A378D9 /* Images.xcassets */; };
 		F7DD92351A49A32000A378D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DD92331A49A32000A378D9 /* LaunchScreen.xib */; };
 		F7DD92411A49A32000A378D9 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD92401A49A32000A378D9 /* TaskItTests.swift */; };
+		F7DD924B1A49A9B100A378D9 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD924A1A49A9B100A378D9 /* TaskCell.swift */; };
+		F7FCDF751A513B8700B527DA /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCDF741A513B8700B527DA /* TaskModel.swift */; };
+		F7FCDF771A513D7800B527DA /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCDF761A513D7800B527DA /* TaskDetailViewController.swift */; };
+		F7FCDF791A5174D000B527DA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCDF781A5174D000B527DA /* Date.swift */; };
+		F7FCDF7B1A5178B700B527DA /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCDF7A1A5178B700B527DA /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		F7DD923A1A49A32000A378D9 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DD923F1A49A32000A378D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7DD92401A49A32000A378D9 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		F7DD924A1A49A9B100A378D9 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		F7FCDF741A513B8700B527DA /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		F7FCDF761A513D7800B527DA /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		F7FCDF781A5174D000B527DA /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		F7FCDF7A1A5178B700B527DA /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 			children = (
 				F7DD922A1A49A32000A378D9 /* AppDelegate.swift */,
 				F7DD922C1A49A32000A378D9 /* ViewController.swift */,
+				F7FCDF761A513D7800B527DA /* TaskDetailViewController.swift */,
+				F7FCDF7A1A5178B700B527DA /* AddTaskViewController.swift */,
+				F7FCDF741A513B8700B527DA /* TaskModel.swift */,
+				F7FCDF781A5174D000B527DA /* Date.swift */,
+				F7DD924A1A49A9B100A378D9 /* TaskCell.swift */,
 				F7DD922E1A49A32000A378D9 /* Main.storyboard */,
 				F7DD92311A49A32000A378D9 /* Images.xcassets */,
 				F7DD92331A49A32000A378D9 /* LaunchScreen.xib */,
@@ -213,7 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7DD922D1A49A32000A378D9 /* ViewController.swift in Sources */,
+				F7FCDF791A5174D000B527DA /* Date.swift in Sources */,
+				F7DD924B1A49A9B100A378D9 /* TaskCell.swift in Sources */,
+				F7FCDF751A513B8700B527DA /* TaskModel.swift in Sources */,
 				F7DD922B1A49A32000A378D9 /* AppDelegate.swift in Sources */,
+				F7FCDF771A513D7800B527DA /* TaskDetailViewController.swift in Sources */,
+				F7FCDF7B1A5178B700B527DA /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +427,7 @@
 				F7DD92461A49A32000A378D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7DD92471A49A32000A378D9 /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +436,7 @@
 				F7DD92491A49A32000A378D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
